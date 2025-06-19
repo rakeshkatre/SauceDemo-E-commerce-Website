@@ -32,10 +32,6 @@ driver.find_element(By.ID, "react-burger-menu-btn").click()
 logout_link =driver.find_element(By.ID, "logout_sidebar_link")
 logout_link.click()
 
-
-# assert "saucedemo.com" in driver.current_url, "logout fail"
-# print("login pass")
-
 #invalid login
 username =driver.find_element(By.ID, "user-name")
 password =driver.find_element(By.ID, "password")
