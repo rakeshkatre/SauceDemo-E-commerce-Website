@@ -58,6 +58,8 @@ Make sure you have the following installed:
 
 ##  Setup & Execution
 
+## NOTE:- (I did not handle the pop-up alert in this code because it does not appear during runtime.)
+
 ### Step 1: Clone the Repository
 
 ```bash
