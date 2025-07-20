@@ -99,7 +99,7 @@ driver.find_element(By.ID, "back-to-products").click()
 assert "invent" in driver.current_url, "not return page"
 print("return page")
 
-#logout
+#logout from application
 driver.find_element(By.ID, "react-burger-menu-btn").click()
 driver.find_element(By.ID, "logout_sidebar_link").click()
 
